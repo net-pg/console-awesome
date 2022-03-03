@@ -10,6 +10,12 @@ public class MathExpression
         return $"{Expression}={Output}";
     }
 
+    /// <summary>
+    /// Adds operation to math expression.
+    /// </summary>
+    /// <param name="operator">Operation's operator.</param>
+    /// <param name="number">Second number of the operation.</param>
+    /// <param name="output">Expression output after added operation.</param>
     public void AddOperation(char @operator, double number, string output)
     {
         Output = output;

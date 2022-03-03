@@ -1,10 +1,9 @@
 ﻿namespace ConsoleAwesome;
 
-public static partial class Program
+// For more information about enums see
+// https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum
+public enum Mode
 {
-    enum Mode
-    {
-        Anonymous,
-        Authenticated
-    }
+    Anonymous,
+    Authenticated
 }
